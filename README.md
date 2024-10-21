@@ -1,21 +1,35 @@
+Berikut adalah dokumentasi API **LangkahPemula**
+
+---
 
 # LangkahPemula API Documentation
-
-## Base URL
 
 **Base URL:** `https://amp.academychan.my.id/api/`
 
 ---
 
-## Authentication
+## Table of Contents
 
-API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastikan Anda mendapatkan token autentikasi setelah login dan menggunakannya dalam setiap request yang memerlukan autentikasi.
+- [Register User](#register-user)
+- [Login](#login)
+- [Logout](#logout)
+- [Get User Dashboard](#get-user-dashboard)
+- [CRUD Courses (Administrator & Mentor)](#crud-courses-administrator--mentor)
+  - [Create Course](#create-course)
+  - [Update Course](#update-course)
+  - [Delete Course](#delete-course)
+- [CRUD Categories (Administrator Only)](#crud-categories-administrator-only)
+  - [Create Category](#create-category)
+  - [Update Category](#update-category)
+  - [Delete Category](#delete-category)
+- [CRUD Users (Administrator Only)](#crud-users-administrator-only)
+  - [Create User](#create-user)
+  - [Update User](#update-user)
+  - [Delete User](#delete-user)
 
 ---
 
-## Endpoints
-
-### 1. **Register User**
+## Register User
 
 **URL:** `/register`  
 **Method:** `POST`  
@@ -46,7 +60,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 2. **Login**
+## Login
 
 **URL:** `/login`  
 **Method:** `POST`  
@@ -74,7 +88,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 3. **Logout**
+## Logout
 
 **URL:** `/logout`  
 **Method:** `POST`  
@@ -94,7 +108,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 4. **Get User Dashboard (Customer, Mentor, Administrator)**
+## Get User Dashboard
 
 **URL:** `/dashboard`  
 **Method:** `GET`  
@@ -118,9 +132,9 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 5. **CRUD Courses (Administrator & Mentor)**
+## CRUD Courses (Administrator & Mentor)
 
-#### a. **Create Course**
+### Create Course
 
 **URL:** `/courses`  
 **Method:** `POST`  
@@ -155,7 +169,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### b. **Update Course**
+### Update Course
 
 **URL:** `/courses/{id}`  
 **Method:** `PUT`  
@@ -190,7 +204,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### c. **Delete Course**
+### Delete Course
 
 **URL:** `/courses/{id}`  
 **Method:** `DELETE`  
@@ -210,9 +224,9 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 6. **CRUD Categories (Administrator Only)**
+## CRUD Categories (Administrator Only)
 
-#### a. **Create Category**
+### Create Category
 
 **URL:** `/categories`  
 **Method:** `POST`  
@@ -243,7 +257,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### b. **Update Category**
+### Update Category
 
 **URL:** `/categories/{id}`  
 **Method:** `PUT`  
@@ -274,7 +288,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### c. **Delete Category**
+### Delete Category
 
 **URL:** `/categories/{id}`  
 **Method:** `DELETE`  
@@ -294,9 +308,9 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-### 7. **CRUD Users (Administrator Only)**
+## CRUD Users (Administrator Only)
 
-#### a. **Create User**
+### Create User
 
 **URL:** `/users`  
 **Method:** `POST`  
@@ -332,7 +346,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### b. **Update User**
+### Update User
 
 **URL:** `/users/{id}`  
 **Method:** `PUT`  
@@ -367,7 +381,7 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-#### c. **Delete User**
+### Delete User
 
 **URL:** `/users/{id}`  
 **Method:** `DELETE`  
@@ -387,4 +401,4 @@ API ini menggunakan **Laravel Sanctum** untuk autentikasi berbasis token. Pastik
 
 ---
 
-Dengan mengikuti dokumentasi ini, Anda dapat menggunakan Postman atau alat lainnya untuk berinteraksi dengan API **LangkahPemula**. Jangan lupa untuk selalu menambahkan token di header pada setiap request yang membutuhkan autentikasi.
+Selamat Mencoba...

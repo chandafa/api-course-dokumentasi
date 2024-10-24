@@ -4,7 +4,9 @@ Berikut adalah dokumentasi API **LangkahPemula**
 
 # LangkahPemula API Documentation
 
-**Base URL:** `https://amp.academychan.my.id/api/`
+**Base URL:** `https://langkahpemula-be-production.up.railway.app/api/`
+
+
 
 ---
 
